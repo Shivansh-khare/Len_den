@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CIV_trans_prof"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_margin="20sp"/>
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/TV_Trans_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:textSize="18sp"
+            android:text="Note"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TV_trans_amm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- ₹500"
+        android:textSize="24sp"
+        android:layout_margin="20sp"
+        android:textColor="#FF0000"/>
+
+</LinearLayout>

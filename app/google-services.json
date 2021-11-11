@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670074981036",
+    "project_id": "lenden-e3dc0",
+    "storage_bucket": "lenden-e3dc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670074981036:android:154850bb4b57f2a3daed09",
+        "android_client_info": {
+          "package_name": "com.example.lenden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670074981036-dnmmvgutb1ibr5c0glne4seujems33d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbm-bCg92arKx0xaeds2IFVLlsoW0nVug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670074981036-dnmmvgutb1ibr5c0glne4seujems33d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

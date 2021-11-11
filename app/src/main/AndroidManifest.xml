@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenden">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LenDen">
+        <activity android:name=".Scrach_activity"></activity>
+        <activity android:name=".Records" />
+        <activity android:name=".TransactionActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Show_QR" />
+        <activity android:name=".RewardsActivity" />
+        <activity android:name=".passcode" />
+        <activity android:name=".Login_Acctivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

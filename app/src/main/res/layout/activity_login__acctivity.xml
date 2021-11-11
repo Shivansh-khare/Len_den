@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:gravity="center"
+    tools:context=".Login_Acctivity">
+
+    <EditText
+        android:id="@+id/ET_log_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"/>
+    <EditText
+        android:id="@+id/ET_log_pass"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"/>
+    <Button
+        android:id="@+id/BTN_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"/>
+    <TextView
+        android:id="@+id/TV_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="crate account"/>
+
+</LinearLayout>
